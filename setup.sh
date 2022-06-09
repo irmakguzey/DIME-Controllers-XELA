@@ -3,8 +3,8 @@ mkdir src
 cd src
 
 # Cloning both the repositories
-git clone https://github.com/NYU-robot-learning/Allegro-Hand-Controller-DIME
-git clone https://github.com/NYU-robot-learning/Kinova-Arm-Controller-DIME
+git clone https://github.com/irmakguzey/Allegro-Hand-Controller-DIME-XELA.git
+git clone https://github.com/irmakguzey/Kinova-Arm-Controller-DIME-XELA.git
 
 
 # Installing the PCAN drivers
@@ -49,6 +49,7 @@ sudo apt-get update
 sudo apt-get install libdart6-all-dev
 
 # Making all the binaries
+cd ~/Workspace/DIME-Controllers-XELA/
 catkin_make
 
 # Setting up the source command in the bashrc file
